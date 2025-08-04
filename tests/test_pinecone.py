@@ -25,9 +25,10 @@ def run_pinecone_demo():
 
         # Demo data
         memories = [
-            "My favorite programming language is Python",
-            "I enjoy building AI applications",
-            "I have 3 years of experience with machine learning",
+            # "My favorite programming language is Python",
+            # "I enjoy building AI applications",
+            # "I have 3 years of experience with machine learning",
+            "I use Shram and Magnet as productivity tools"
         ]
 
         # Store memories
@@ -38,7 +39,7 @@ def run_pinecone_demo():
             time.sleep(1)  # Avoid rate limiting
 
         # Test query
-        query = "What programming experience do I have?"
+        query = "What are the productivity tools that I use?"
         print(f"\n🔍 Querying: '{query}'")
         results = pinecone.retrieve_memories(user_id, query)
 
