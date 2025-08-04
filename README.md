@@ -30,5 +30,7 @@ Searches with the prompt:
 ## How to Run the Test
 #### Ensure you're in your Python virtual environment and run:
 
-D:/llm-memory-agent/.venv/Scripts/python.exe d:/llm-memory-agent/tests/test_pinecone.py
+**D:/llm-memory-agent/.venv/Scripts/python.exe d:/llm-memory-agent/tests/test_pinecone.py**
+
+
 <img width="809" height="426" alt="image" src="https://github.com/user-attachments/assets/300ea4b7-b334-4b6d-b391-bca8c3f0bb0c" />
